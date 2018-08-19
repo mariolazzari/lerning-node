@@ -40,7 +40,7 @@ app.post("/messages", async (req, res) => {
     const message = new Message(req.body);
     // save
     console.log("Message saved");
-    const savedMessage = await message.save();
+    await message.save();
     // censored
     console.log("Check for bad words");
     const censored = await Message.findOne({ message: "badword" });

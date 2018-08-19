@@ -4,7 +4,8 @@
   "description": "\"# lerning-node\"",
   "main": "async-demo.js",
   "scripts": {
-    "dev": "nodemon demo"
+    "test": "jasmine",
+    "dev": "node server"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,8 @@
     "socket.io": "^2.1.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.3"
+    "jasmine": "^3.2.0",
+    "nodemon": "^1.18.3",
+    "request": "^2.88.0"
   }
 }

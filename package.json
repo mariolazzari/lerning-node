@@ -1,0 +1,22 @@
+{
+  "name": "learning-node",
+  "version": "1.0.0",
+  "description": "\"# lerning-node\"",
+  "main": "async-demo.js",
+  "scripts": {
+    "dev": "nodemon demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariolazzari/lerning-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariolazzari/lerning-node/issues"
+  },
+  "homepage": "https://github.com/mariolazzari/lerning-node#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
